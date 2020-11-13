@@ -1,5 +1,5 @@
 # MongoDBFlask
-In this repository explains how to create a REST API using Python and host it locally using Docker. The goal of this task is to allow the user to interact with a database of products using APIs which are available on localhost via Docker.<br>
+This repository explains how to create a REST API using Python and host it locally using Docker. The goal of this task is to allow the user to interact with a database of products using APIs which are available on localhost via Docker.<br>
 At first, E-commerce products and its information data have been hosted on a MongoDB server. Connecting to the MongoDB server and operating basic crud operation is explained in the "MongoAPI.py" file. <br>
 REST API has been created with the help of flask, that allows the user to do basic CRUD operations on the data. This process is explained in "__init__.py" file.<br>
 After that Dockerization of API is performed by the following command below.<br>
