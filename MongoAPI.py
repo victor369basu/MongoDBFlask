@@ -1,4 +1,4 @@
-from flask import Flask, request, json, Response
+import json
 from pymongo import MongoClient
 import configparser
 import logging as log
@@ -94,11 +94,11 @@ if __name__ == '__main__':
             "regular_price_value": 30
         },
         "Filter":{
-           "brand_name": "VictorBasu"
+           "brand_name": "Louis Vuitton"
         },
         "DataToBeUpdated":{
-           "name": "Pet Shop, Black",
-           "offer_price_value": 40,
+           "name": "Highway Ramp",
+           "offer_price_value": 80,
         }
     }
     mongo_obj = MongoAPI(data)
